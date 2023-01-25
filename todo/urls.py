@@ -8,7 +8,7 @@ urlpatterns = [
     path('page/', include('static_pages.urls', namespace='static_pages')),
     path('admin/', admin.site.urls),
 ]
-
+3
 
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL,
